@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin-top: .02%;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 3rem;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    height: 100%;
+    width: 96%;
+    margin: 3rem 0rem 3rem 0rem;
+}
+
+.container {
+    height: 100%;
+    width: 90%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 3%;
+    padding: 10px;
+    max-width: 380px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.container .cubo {
+    width: 100%;
+    border-radius: 5%;
+    margin: 0px 0px 1.5px 0px;
+}
+
+.view {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    bottom: 500px;
+    left: 760px;
+    right: 0;
+    opacity: 0;
+}
+
+.card {
+    margin: 10px 10px 0px 10px;
+}
+
+.usuario {
+    display: flex;
+    gap: .5em;
+    margin: 0px;
+}
+.usuario img {
+    height: 33px;
+    width: 33px;
+    border: solid rgba(255, 255, 255, 0.668);
+    border-radius: 100%;
+}
+.precio {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.precio #img1 {
+    height: 20px;
+    width: 14px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1px;
+    margin: 9px 3px -1px 8px;
+}
+
+.precio img{
+    height: 18px;
+    width: 18px;
+    justify-items: center;
+    align-items: center;
+    margin: 9px 3px -1px 8px;
+}
+
+#numero {
+    color: white;
+    cursor: pointer;
+}
+#ETH {
+    color: hsl(178, 100%, 50%);
+}
+
+#name1 {
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#name {
+    margin-top: 5px;
+}
+
+.line {
+    height: 1px;
+    width: 330px;
+    margin: 0px 0px 15px 0px;
+    background-color: hsl(215, 51%, 70%);
+}
+
+.cubo:hover {
+    cursor: pointer;
+    background-image: url(/images/icon-view.svg);
+}
+
+#name1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+#numero:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.view:hover {
+    opacity: 1;
+    transition: all 100ms;
+    background-color: rgba(0, 255, 255, 0.418);
+    cursor: pointer;
+}
