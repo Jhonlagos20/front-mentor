@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    background-color: hsl(225, 100%, 94%);
+    color: hsl(245, 75%, 52%);
+    margin: 4rem 0rem 0rem 0rem;
+}
+
+.container {
+    font-size: 16px;
+    background-color: white;
+    max-width: 360px;
+    border-radius: 5%;
+    margin-top: 0;
+    height: 100%;
+    width: 78%;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.name{
+    text-align: center;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    text-align: center;
+    line-height: 25px;
+    color: hsl(224, 23%, 55%);
+    margin: 6px;
+}
+
+.music {
+    width: 50px;
+    height: 50px;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.precio {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10%;
+    height: 100px;
+    margin: 10px;
+}
+
+.plaso {
+    margin: 0rem 0rem 0rem 1rem;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+h4 {
+    text-decoration-line: underline;
+    cursor: pointer;
+    padding: 10px;
+}
+
+div {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%); 
+    border: none;
+    color: white;
+    padding: 12px 80px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 0px 25px;
+    cursor: pointer;
+    
+}
+
+h5{
+    text-align: center;
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+h5:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+h4:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration-line: none;
+}
+
+.button:hover {
+    background-color: hsl(224, 23%, 55%);
+}
