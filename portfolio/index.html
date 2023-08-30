@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!-- Menu Encabezado -->
+  <div class="contenedor-header">
+    <header>
+      <div class="logo">
+        <a href="#">Jhon</a>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+          <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+          <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+          <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+          <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+          <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="nav-resposive"onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+  </div>
+
+  <!-- Seccion Inicio -->
+  <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+      <div class="contenedor-img">
+        <img src="img/usuario.jpg" alt="">
+      </div>
+      <h1>Jhon Alexander</h1>
+      <h2>Junior - Html/Css/Js</h2>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion Sobre Mi -->
+  <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+      <h2>Sobre Mí</h2>
+      <p><span>Hola, soy Jhon Alexander Lagos</span>, un principiante apasionado en el mundo de la programación. Mi enfoque se centra en HTML, CSS y JavaScript, y estoy emocionado de compartir mi viaje en este emocionante campo con ustedes. Soy un entusiasta de la tecnología con un amor por la resolución de problemas y la creatividad. Aunque estoy en las primeras etapas de mi carrera como programador, he estado inmerso en el estudio y la práctica constante de HTML, CSS y JavaScript para crear experiencias web atractivas y funcionales.</p>
+
+      <div class="fila">
+        <!-- Datos personales -->
+        <div class="col">
+          <h3>Datos Personales</h3>
+          <ul>
+            <li>
+              <strong>Cumpleaños</strong>
+              31-08-2003
+            </li>
+            <li>
+              <strong>Telefono</strong>
+              +57 3118677584
+            </li>
+            <li>
+              <strong>Email</strong>
+              jhonlagos90913@gmail.com
+            </li>
+            <li>
+              <strong>Direccion</strong>
+              Colombia - Nariño - Pasto
+            </li>
+            <li>
+              <strong>Cargo</strong>
+              <span> Frontend </span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Intereses -->
+        <div class="col">
+          <h3>Intereses</h3>
+          <div class="contenedor-intereses">
+            <div class="intereses">
+              <i class="fa-solid fa-gamepad"></i>
+              <span>Juegos</span>
+            </div>
+            <div class="intereses">
+              <i class="fa-solid fa-headphones"></i>
+              <span>Musica</span>
+            </div>
+            <div class="intereses">
+              <i class="fa-solid fa-volleyball"></i>
+              <span>Voleybol</span>
+            </div>
+            <div class="intereses">
+              <i class="fa-regular fa-futbol"></i>
+              <span>Futbol</span>
+            </div>
+            <div class="intereses">
+              <i class="fa-brands fa-windows"></i>
+              <span>Windows</span>
+            </div>
+            <div class="intereses">
+              <i class="fa-solid fa-motorcycle"></i>
+              <span>Motos</span>
+            </div>
+            <div class="intereses">
+              <i class="fa-solid fa-camera"></i>
+              <span>Fotografia</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <button>
+        Descargar CV <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Seccion Skills -->
+  <section class="skills" id="skills">
+    <div class="contenido-seccion">
+      <h2>Skills</h2>
+      <div class="fila">
+        <!-- Technical Skill -->
+        <div class="col">
+          <h3>Technical Skills</h3>
+          <div class="skill">
+            <span>JavaScript</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>35%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>HTML & CSS</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Canva</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>50%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Utilización de IA</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Professional Skills -->
+        <div class="col">
+          <h3>Professional Skills</h3>
+          <div class="skill">
+            <span>Comunicación</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Trabajo en equipo</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Creatividad</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>70%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Dedicación</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>65%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Project Management</span>
+            <div class="barra-skill">
+              <div class="progreso">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion Curriculum -->
+  <section class="curriculum" id="curriculum">
+    <div class="dontenido-seccion">
+      <h2>Curriculum</h2>
+      <div class="fila">
+        <div class="col izquierda">
+          <h3>Educación</h3>
+          <div class="item izq">
+            <h4>Bachillerato</h4>
+            <span class="casa">IEM Heraldo Romero Sanchez</span>
+            <span class="fecha">2015 - 2020</span>
+            <p>Propiciar procesos de educación integral con énfasis en competencias académicas y laborales, tanto generales como específicas. Generar espacios participativos fundamentados en los derechos humanos, valores éticos, sociales y ambientales para la construcción de una sana convivencia. </p>
+            <div class="conectori">
+              <div class="circuloi"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portafolio -->
+  <section class="portafolio" id="portafolio">
+    <div class="contenido-seccion">
+      <h2>Portafolio</h2>
+      <div class="galeria">
+        <div class="proyecto">
+          <img src="img/Captura de pantalla (10).png" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Montañas</p>
+            <a href="https://web-mountain-component.netlify.app/" target="_blank">Ver Más</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="img/Captura de pantalla (11).png" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>ProgramaYa</p>
+            <a href="https://web-programa-ya.netlify.app/" target="_blank">Ver Más</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="img/Captura de pantalla (12).png" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>FoodDivCode</p>
+            <a href="https://fast-foods-web.netlify.app/" target="_blank">Ver Más</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="img/Captura de pantalla (14).png" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Cafeteria</p>
+            <a href="https://web-cafeteria.netlify.app/" target="_blank">Ver Más</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <img src="img/Captura de pantalla (13).png" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Ensaladas</p>
+            <a href="https://salad-food-web.netlify.app/" target="_blank">Ver Más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- seccion contacto -->
+  <section class="contacto" id="contacto">
+    <div class="contenido-seccion">
+      <h2>CONTACTO</h2>
+      <div class="fila">
+        <!-- formulario -->
+        <div class="col">
+          <input type="text" placeholder="Tú Nombre">
+          <input type="text" placeholder="Número Telefonico">
+          <input type="text" placeholder="Dirección de correo">
+          <input type="text" placeholder="Tema">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+          <button>
+            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+            <span class="overlay"></span>
+          </button>
+        </div>
+        <!-- mapa -->
+        <div class="col">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63822.77320594767!2d-77.31842262119153!3d1.2136109505741977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2ed48761b92a73%3A0x44a368566cc3a522!2zUGFzdG8sIE5hcmnDsW8!5e0!3m2!1ses-419!2sco!4v1693258082221!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="info">
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                Colombia, Nariño - Pasto
+              </li>
+              <li>
+                <i class="fa-light fa-mobile"></i>
+                Llamanos +573118677584
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                Email: jhonlagos90913@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <a href="#inicio" class="arriba">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
